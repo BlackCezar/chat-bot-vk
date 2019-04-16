@@ -1,0 +1,33 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Bot for vk",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackCezar/chat-bot-vk.git"
+  },
+  "keywords": [
+    "bot",
+    "nodejs",
+    "chat",
+    "vk"
+  ],
+  "author": "Doctor Maxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlackCezar/chat-bot-vk/issues"
+  },
+  "homepage": "https://github.com/BlackCezar/chat-bot-vk#readme",
+  "dependencies": {
+    "cherio": "^1.0.0-rc.2",
+    "dotenv": "^7.0.0",
+    "easyvk": "^2.3.0",
+    "html-table-to-json": "^0.4.0",
+    "node-vk-bot-api": "^2.4.10",
+    "request": "^2.88.0"
+  }
+}
