@@ -4,7 +4,7 @@
   "description": "Bot for vk",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node chat-bot-vk/server.js"
   },
   "repository": {
     "type": "git",
