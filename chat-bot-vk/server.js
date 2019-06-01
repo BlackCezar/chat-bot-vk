@@ -24,6 +24,7 @@ bot.use(stage.middleware())
 
 bot.command('/start', (ctx) => {
   ctx.scene.enter('start')
+   console.log(ctx)
 })
 bot.command('/help', ctx => {
   ctx.reply('Нужна помощь? Нет. Не помогу.')
